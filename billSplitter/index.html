@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billsplitter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <div class="wrapper">
+    <div class="header">
+    <h1>BILLSPLITTER</h1>
+    <H3>Podziel się rachunkiem ze znajomymi</H3>
+    </div>
+    <div class="inputs">
+         <p>Kwota do zapłaty:</p>
+         <input type="number"class="input" id="price">
+         <p>Ilość osób:</p>
+         <input type="number"class="input" id="people" >
+         <p>Napiwek</p>
+         <select class="input" id="tip">
+            <option value="0" disabled selected>--wybierz napiwek--</option>
+            <option value="0.05">5%</option>
+            <option value="0.1">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.2">20%</option>
+         </select>
+       
+       <div class="center"><button class="btn">Oblicz</button></div>
+       <div class="error">Musisz uzupełnić wszystkie pola</div>
+       <div class="cost-info">Powinniście się złożyć po <span class="cost"> </span> zł! :)</div>
+    </div>
+
+   </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
