@@ -1,3 +1,3 @@
-# thingsDoneWhileLearningJS
+# JavaScriptSmallProjects
 
-Small projects made while learning JavaScript
+Small projects made with JavaScript
